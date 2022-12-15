@@ -11457,7 +11457,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-11 15:31:18 +0000">11/11/2022</time>
+    <time datetime="2022-12-14 18:42:34 +0000">12/14/2022</time>
     
   
 
@@ -11478,7 +11478,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="optnetappdata-がマウントされている場合の-selinux-コンテキストの設定">/opt/NetApp/data がマウントされている場合の SELinux コンテキストの設定</h2>
+<h2 id="の場合のselinuxコンテキストの設定-optnetappdata-がマウントされている">の場合のSELinuxコンテキストの設定 <code>/opt/netapp/data</code> がマウントされている</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>をマウント済みの場合 <code>/opt/netapp/data</code> SELinuxの場合、システムはに設定されます <code>Enforcing`のSELinuxコンテキストタイプを確認してください `/opt/netapp/data</code> がに設定されます `mysqld_db_t`を使用します。これは、データベースファイルの場所のデフォルトのコンテキスト要素です。</p>
@@ -11557,7 +11557,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="optnetapp-がマウントされていて-optnetappdata-も別途マウントされている場合に-selinux-コンテキストを設定します">/opt/netapp がマウントされていて、 /opt/netapp/data も別途マウントされている場合に、 SELinux コンテキストを設定します</h2>
+<h2 id="の場合のselinuxコンテキストの設定-optnetapp-がマウントされています-optnetappdata-は別途マウントすることもできます">の場合のSELinuxコンテキストの設定 <code>/opt/netapp</code> がマウントされています <code>/opt/netapp/data/</code> は別途マウントすることもできます</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>このシナリオでは、最初にのコンテキストを設定する必要があります <code>/opt/netapp/data/</code> 前のセクションで説明したとおりです。の正しいコンテキストを設定したあと <code>/opt/netapp/data/`をクリックして、親ディレクトリを指定します `/opt/netapp</code> SELinuxコンテキストがに設定されていない <code>file_t</code>。</p>
@@ -11640,7 +11640,7 @@ restorecon -v /opt/netapp</pre>
 </div>
 </div>
 <div class="sect1">
-<h2 id="optnetapp-がマウントされていて-optnetappdata-が別途マウントされていない場合に-selinux-コンテキストを設定します">/opt/netapp がマウントされていて、 /opt/netapp/data が別途マウントされていない場合に、 SELinux コンテキストを設定します</h2>
+<h2 id="の場合のselinuxコンテキストの設定-optnetapp-がマウントされています-optnetappdata-は別途マウントされません">の場合のSELinuxコンテキストの設定 <code>/opt/netapp</code> がマウントされています <code>/opt/netapp/data/</code> は別途マウントされません</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>をマウント済みの場合  <code>/opt/netapp</code> SELinuxの場合、システムはに設定されます <code>Enforcing`のSELinuxコンテキストタイプを確認してください `/opt/netapp</code> がに設定されます `mysqld_db_t`を使用します。これは、データベースファイルの場所のデフォルトのコンテキスト要素です。</p>
