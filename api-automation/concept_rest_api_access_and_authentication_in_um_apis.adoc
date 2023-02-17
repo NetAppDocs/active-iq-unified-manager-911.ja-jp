@@ -17,12 +17,9 @@ Active IQ Unified Manager REST APIには、基本のHTTP認証メカニズムを
 
 * * リクエスト *
 +
-取得
-
-
-
 [listing]
 ----
+GET
 https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 ----
 * * 応答 *
@@ -103,7 +100,7 @@ https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 
 
 +
-Web ブラウザから問題 POST 、 PATCH 、および DELETE の各 HTTP 要求を実行するには、ブラウザのプラグインを使用する必要があります。cURL や Perl などのスクリプトプラットフォームを使用して、 REST API にアクセスすることもできます。
+Webブラウザから問題 HTTP要求を行うには、REST APIブラウザプラグインを使用する必要があります。cURL や Perl などのスクリプトプラットフォームを使用して、 REST API にアクセスすることもできます。
 
 
 
