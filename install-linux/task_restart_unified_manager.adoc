@@ -40,3 +40,9 @@ Unified Manager がインストールされている Red Hat Enterprise Linux �
 `systemctl start ocieau`
 
 
+
+[NOTE]
+====
+`mysqld` は、MySQLサーバの起動と停止に必要なデーモンプログラムです。
+
+====

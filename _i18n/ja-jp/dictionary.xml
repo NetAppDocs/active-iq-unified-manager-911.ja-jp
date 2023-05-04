@@ -8657,9 +8657,6 @@
   <block id="8a89f6664254d9a94578dae683c48cce" category="list-text">から内容をコピーします<block ref="9a284b8d10072a11cb0d5402d3bdcc42" prefix=" " category="inline-code"></block> 展開したに戻ります<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> ディレクトリ：</block>
   <block id="fee984743f91b24dec86f77ceb6dd622" category="summary">クラスタセットアップページを使用して、クラスタのインベントリを表示できます。名前や IP アドレス、通信ステータスなど、クラスタに関する詳細を確認できます。</block>
   <block id="ee45945ca017877dfd40f7584086a95c" category="doc">監視対象クラスタのリストの表示</block>
-  <block id="9dc7252bbef57ce4f0d03bcddb84711c" category="paragraph">クラスタのリストは、収集状態の重大度レベル列でソートされます。列ヘッダーをクリックすると、別の列でクラスタをソートできます。</block>
-  <block id="45ec896bf3e43c4d453f4fa4f22106ca" category="inline-link-macro">セツテイ / クラスタテエタソオスヘエシ</block>
-  <block id="01b124e9964263d377fc183d69afb2ed" category="paragraph"><block ref="01b124e9964263d377fc183d69afb2ed" category="inline-link-macro-rx"></block></block>
   <block id="88c88f6b56a9d98bd33b05c15caf1b59" category="summary">Rules to Generate User and Group Quota Email Address ページでは、クラスタ、 SVM 、ボリューム、 qtree 、ユーザに関連付けられたユーザクォータに基づいて E メールアドレスを指定するルールを作成できます。 またはユーザグループを指定します。クォータに違反が発生すると、指定した E メールアドレスに通知が送信されます。</block>
   <block id="51ec35fdada9b22f0ab61058a1d6b10a" category="doc">RulestoGenerateUserandGroupQuotaEmailAddress ヘエシ</block>
   <block id="38177b330d524696f6cd3f56f4146279" category="section-title">ルール領域</block>
@@ -11575,8 +11572,6 @@
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">リソースの追加</block>
   <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager のビデオ</block>
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager のブログです</block>
-  <block id="a28def0e6555993fb14b2d945874f854" category="sidebar">Active IQ Unified Manager 9.10のマニュアル</block>
-  <block id="b4326b5cab8385bbedf7c504d8569004" category="sidebar">以前のバージョンのドキュメント</block>
   <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager の略</block>
   <block id="09d454f0bf432593d99fbfd84c9f9293" category="sidebar">設定タスクと管理タスクを実行</block>
   <block id="32d8b1bb1bdc5067bfbde495253b3469" category="sidebar">クラスタヘルスを監視および管理する</block>
@@ -11647,4 +11642,7 @@
   <block id="d2136c0320bc784ec5e976cc7c71f93d" category="sidebar">Storage VMの健常性の詳細</block>
   <block id="fbf5dae3b577d533c0b3785c65a5e93f" category="sidebar">クラスタの健常性の詳細</block>
   <block id="3a63c6b863ef9b4f54c6281b5910c2f9" category="sidebar">アグリゲートの健常性の詳細</block>
+  <block id="228689b16f6e524fb9ed06d81f33db6b" category="paragraph"><block ref="7e3bc202e89677c6d62e218685393bf5" prefix="" category="inline-code"></block> は、MySQLサーバの起動と停止に必要なデーモンプログラムです。</block>
+  <block id="13490f69efe6e04b704eff78476a43b8" category="paragraph">Unified Managerで管理しているストレージ環境内のすべてのクラスタが表示されます。クラスタのリストは、収集状態の重大度レベル列でソートされます。列ヘッダーをクリックすると、別の列でクラスタをソートできます。</block>
+  <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">Active IQ Unified Manager 9.9以前のドキュメント</block>
 </blocks>
