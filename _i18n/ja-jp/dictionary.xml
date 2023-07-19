@@ -1425,7 +1425,6 @@
   <block id="5a5094f086cece37d0843a7f44251cce" category="paragraph">Linux サーバと Windows サーバに Unified Manager をインストールした場合のデフォルトのバックアップメカニズムは MySQL データベースダンプです。ただし、Unified Managerで管理しているクラスタやノードの数が多い場合や、MySQLバックアップの完了に数時間かかる場合は、Snapshotコピーを使用してバックアップを実行できます。この機能は、Red Hat Enterprise Linux、CentOS Linuxシステム、およびWindowsで使用できます。</block>
   <block id="33fc247e555720879316017b076f2029" category="paragraph">データベースダンプバックアップは、バックアップディレクトリ内の 1 つのファイルとデータベースリポジトリディレクトリ内の 1 つ以上のファイルで構成されます。バックアップディレクトリ内のファイルは非常に小さく、バックアップを再作成するために必要なデータベースリポジトリディレクトリ内のファイルへのポインタのみが含まれます。</block>
   <block id="2f3b4c9172b561f3e884b4272c129fb6" category="paragraph">データベースバックアップの初回生成時は、 1 つのファイルがバックアップディレクトリに作成され、フルバックアップファイルがデータベースリポジトリディレクトリに作成されます。次にバックアップを生成するときは、 1 つのファイルがバックアップディレクトリに作成され、フルバックアップファイルとの差分を含む増分バックアップファイルがデータベースリポジトリディレクトリに作成されます。追加のバックアップを作成すると、次の図に示すように、最大保持設定までこのプロセスが繰り返されます。</block>
-  <block id="e7fbcbeb2e1e5f4c9bede03c1fbb8e41" category="image-alt">データベースのバックアップ</block>
   <block id="efbe49949ffa2f8a16f02f4ea7adc56a" category="paragraph">これらの 2 つのディレクトリ内のバックアップファイルは、名前を変更したり削除したりしないでください。それらの処理を行うと、以降のリストア処理が失敗します。</block>
   <block id="cb923ec5ab7e1a642e7b3ba98abfc4f1" category="paragraph">バックアップファイルをローカルシステムに書き込む場合、完全なリストアを必要とするシステム問題があるときに使用できるように、バックアップファイルをリモートの場所にコピーするプロセスを開始する必要があります。</block>
   <block id="c48f8fd51b32d584ba11d9662e34349b" category="paragraph">バックアップ処理を開始する前に、 Active IQ Unified Manager で整合性チェックが実行され、必要なすべてのバックアップファイルとバックアップディレクトリが存在し、書き込み可能であることが確認されます。また、バックアップファイルを作成できるだけの十分なスペースがシステムにあるかどうかも確認されます。</block>
@@ -11645,4 +11644,5 @@
   <block id="228689b16f6e524fb9ed06d81f33db6b" category="paragraph"><block ref="7e3bc202e89677c6d62e218685393bf5" prefix="" category="inline-code"></block> は、MySQLサーバの起動と停止に必要なデーモンプログラムです。</block>
   <block id="13490f69efe6e04b704eff78476a43b8" category="paragraph">Unified Managerで管理しているストレージ環境内のすべてのクラスタが表示されます。クラスタのリストは、収集状態の重大度レベル列でソートされます。列ヘッダーをクリックすると、別の列でクラスタをソートできます。</block>
   <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">Active IQ Unified Manager 9.9以前のドキュメント</block>
+  <block id="fb433a9b7897073e3d41673a4e2e35a5" category="image-alt">バックアップリストア</block>
 </blocks>
