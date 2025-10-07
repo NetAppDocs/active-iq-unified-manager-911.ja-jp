@@ -10730,7 +10730,6 @@
   <block id="ae48afa96207ddbaa3cc0fd8af90a98e" category="list-text">リストア先のクラスタ、 SVM 、ボリュームを選択します。</block>
   <block id="bc621350fbc23e6ec1741153ed6e331f" category="list-text">名前 (Name) テーブルで ' ディレクトリ名を選択します</block>
   <block id="2d0fcfb8d7bf7c097d1eab05f1ec38bf" category="list-text">[ * ディレクトリの選択 * ] をクリックします。</block>
-  <block id="747c77249313eab0521246ecfbad977b" category="paragraph">Cloud Volumes ONTAP HA クラスタ間のリストア処理が NDMP のエラーで失敗する場合は、ソースシステムのクラスタ管理 LIF と通信できるように、デスティネーションクラスタで明示的な AWS ルートを追加しなければならないことがあります。この設定手順は、BlueXPを使用して実行します。</block>
   <block id="189f93def48c68b653c00a0dfbb1d38d" category="summary">ストレージサービスに固有の SVM の関連付けやリソースプールの要件を確認する場合は、パートナーアプリケーションへの準拠を適切に確保することができます。 たとえば、 SVM を関連付けて Unified Manager でリソースプールを作成すると、パートナーアプリケーションから提供されるストレージサービスの保護トポロジがサポートされます。</block>
   <block id="7ac9f5b335cd5f6e950d9115ce798e47" category="doc">ストレージサービスをサポートするための SVM とリソースプールの要件</block>
   <block id="b68fef249be4b0a84f16a19da73b2d3d" category="paragraph">一部のアプリケーションは、 Unified Manager サーバと連携し、ソースボリュームとセカンダリストレージまたは 3 番目のストレージにある保護ボリュームとの間で SnapMirror または SnapVault によるバックアップ保護を自動的に設定して実行するサービスを提供します。このような保護ストレージサービスをサポートするには、 Unified Manager を使用して、必要な SVM の関連付けとリソースプールを設定する必要があります。</block>
@@ -11649,4 +11648,5 @@
   <block id="06c70b026e4d10bfcd7be2ebfa770d1c" category="paragraph"><block ref="06c70b026e4d10bfcd7be2ebfa770d1c" category="inline-link-rx"></block></block>
   <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
   <block id="770d65da77d99b47e750a7f85ba6e067" category="paragraph">準拠はに基づいてい<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>ます。パネル上部の右矢印をクリックすると、[セキュリティ]ページにすべてのクラスタのセキュリティの詳細が表示されます。詳しくは、を参照してください。 <block ref="13e0397bd43d0f4ef0a0e2d1f1544b6c" category="inline-link-macro-rx"></block></block>
+  <block id="1daba90506b1f94ee6106dc86aa53476" category="paragraph">Cloud Volumes ONTAPのHAクラスタ間のリストア処理がNDMPのエラーで失敗する場合は、ソース システムのクラスタ管理LIFと通信できるように、デスティネーション クラスタで明示的なAWSのルートを追加しなければならないことがあります。この構成手順は、 NetAppコンソールを使用して実行します。</block>
 </blocks>
