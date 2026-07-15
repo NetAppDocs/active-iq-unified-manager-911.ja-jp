@@ -29,6 +29,7 @@ summary: データ保護ページには、データセンター内で保護さ�
 
 
 
+[[view-protection-status-of-volumes-protected-by-snapshot-copies]]
 == Snapshotコピーで保護されているボリュームの保護ステータスを表示します
 
 * Snapshotコピーの概要*：次のような、Snapshotコピーで保護されているボリュームの概要
@@ -47,6 +48,7 @@ summary: データ保護ページには、データセンター内で保護さ�
 
 
 
+[[points-to-note-for-snapshot-copies]]
 === Snapshotコピーについてはメモを指定します
 
 * Snapshotコピーで保護されているボリュームの数をカウントする場合、ソースボリュームとデスティネーションボリュームの両方が考慮されます。
@@ -57,6 +59,7 @@ summary: データ保護ページには、データセンター内で保護さ�
 
 
 
+[[view-protection-status-for-snapmirror-relationships]]
 == SnapMirror関係の保護ステータスを表示します
 
 * SnapMirror の概要 * ：次のような、 SnapMirror ポリシーで保護されているボリュームの概要。
@@ -76,6 +79,7 @@ summary: データ保護ページには、データセンター内で保護さ�
 
 
 
+[[points-to-note-for-snapmirror-relationships]]
 === SnapMirror関係については、メモを指定します
 
 * SnapMirror関係のカウントでは、読み取りと書き込みが有効なソースボリュームがカウントされます。デスティネーションボリュームとルートボリュームは考慮されません。
